@@ -1,0 +1,88 @@
+
+.logo, .login, .copyright {
+    color:white;
+    display:inline-block;
+    position:absolute;
+    top:40%;
+}
+
+.logo, .copyright {
+    margin-left:50px;
+}
+
+.logo:hover, .login:hover {
+	color:grey;
+} 
+
+.login {
+    right:50px;
+}
+
+body {
+    margin:0px;
+}
+
+header, footer {
+    background-color:black;
+    color:white;
+    height: 80px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+h3 {
+    padding-top:30px;
+    font:bold 28pt serif;
+    text-align: center;
+}
+
+.form {
+    background-color:lightgray;
+    width:450px;
+    margin: 0 auto;
+}
+
+div {
+    padding:5px;
+}
+
+form label {
+    width:200px;
+    display:inline-block;
+    vertical-align: top;
+    padding-left:20px;
+}
+
+form input:not([type=checkbox]) {
+    display:inline-block;
+    width:180px;
+}
+
+[type=submit] {
+    background-color:black;
+    color:white;
+    width:200px;
+    height:30px;
+    border:none;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+[type=checkbox] +  span {color:grey;}
+
+[type=checkbox] {margin-left:20px;}
+
+.submit {
+    width:200px;
+    margin: 0 auto;
+
+
+}
